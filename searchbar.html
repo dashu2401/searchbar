@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Expending search</title>
+        <style>
+            body {
+                background: #1e272e;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+            }
+            .search {
+                width: 50px;
+                height: 50px;
+                background: white;
+                border-radius: 40px;
+                transition: width 0.4s;
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                padding: 0 15px;
+            }
+            .search:hover {
+                width: 260px;
+            }
+            .search input {
+                border: none;
+                outline: none;
+                width: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="search"><input placeholder="Search...." /></div>
+    </body>
+</html>
